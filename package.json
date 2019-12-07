@@ -1,0 +1,27 @@
+{
+  "name": "pokemontronbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tronbox.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node test_console",
+    "startb": "babel-node --presets es2015 test_console/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "\\",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "tronweb": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0"
+  }
+}
